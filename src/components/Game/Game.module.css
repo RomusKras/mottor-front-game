@@ -1,0 +1,21 @@
+.button.FinishGame {
+  background-color: #4f7444;
+  color: white;
+  vertical-align: top;
+}
+
+.Score {
+  text-align: right;
+}
+
+.GamingTable {
+  margin-top: 20px;
+  display: flex;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,22 @@
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.button.StartGame {
+  background-color: #12cdd4;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button.ReplayGame {
+  background-color: #0ca789;
+  color: white;
+}

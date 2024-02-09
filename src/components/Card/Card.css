@@ -1,0 +1,43 @@
+.Card:not(.Card--shown) .Card__face--front {
+  display: none;
+}
+
+.Card.Card--shown .Card__face--front {
+  display: block;
+  cursor: auto;
+}
+
+.Card.Card--shown .Card__face--back {
+  display: none;
+}
+
+.Card:not(.Card--shown) .Card__face--back {
+  display: block;
+}
+
+.Card img {
+  /* max-width: 100px; */
+  width: 100%;
+}
+
+.Card {
+  margin: 10px;
+  cursor: pointer;
+  flex: 1 0 14%;
+  max-width: 14%;
+}
+
+.Card.Found {
+  cursor: auto;
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+/* CSS */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
